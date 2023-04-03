@@ -3,8 +3,7 @@
 <img src="https://raw.githubusercontent.com/thedevdojo/blog-template/main/public/screenshot.png" alt="screenshot" />
 
 <h1>Blog Template</h1>
-<p>This is a dry blog template to use for package development or any other test you want to perform with a plain and dry blog UI</p>
-<p>In this package is a plain Laravel application with the Tallstack preset</p>
+<p>This is a dry blog template to use for package development or any other test you want to perform with a plain and dry blog UI. In this package is a plain <a href="https://laravel.com" target="_blank">Laravel application</a> with the <a href="https://github.com/laravel-frontend-presets/tall" target="_blank">Tallstack preset</a></p>
 
 <h2>Steps to load a local version</h2>
 <ul>
