@@ -10,16 +10,16 @@
 <li>Git clone https://github.com/thedevdojo/blog-template.git</li>
 <li>CD into that new folder</p>
 <li>Run <code>composer install</code></li>
-<li>Install dependencies with `npm install`</li>
-<li>Run asset watcher with `npm run dev`</li>
+<li>Install dependencies with <code>npm install</code></li>
+<li>Run asset watcher with <code>npm run dev</code></li>
 </ul>
 
 <h2>Re-run migrations and re-create posts</h2>
 <p>Follow these steps to re-run the migrations and create a single user and 10 posts</p>
 <ul>
-<li>Run `php artisan migrate`</li>
-<li>Inside of `php artisan tinker`, run `User::factory()->create()` to create a new user</li>
-<li>Insiide of `php artisan tinker`, run `Post::factory()->count(10)->create()` to create posts</li>
+<li>Run <code>php artisan migrate</code></li>
+<li>Inside of <code>php artisan tinker</code>, run <code>User::factory()->create()</code> to create a new user</li>
+<li>Insiide of <code>php artisan tinker</code>, run <code>Post::factory()->count(10)->create()</code> to create posts</li>
 </ul>
 
 <p>That's it! 🍻 Enjoy.</p>
