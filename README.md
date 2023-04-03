@@ -1,6 +1,8 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Blog"></a></p>
-<h1>Blog Template</h1>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/thedevdojo/blog-template/main/public/logo.svg" height="150" alt="Laravel Blog"></a></p>
 
+<img src="https://raw.githubusercontent.com/thedevdojo/blog-template/main/public/screenshot.png" alt="screenshot" />
+
+<h1>Blog Template</h1>
 <p>This is a dry blog template to use for package development or any other test you want to perform with a plain and dry blog UI</p>
 <p>In this package is a plain Laravel application with the Tallstack preset</p>
 
