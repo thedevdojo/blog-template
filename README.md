@@ -9,7 +9,7 @@
 <ul>
 <li>Git clone https://github.com/thedevdojo/blog-template.git</li>
 <li>CD into that new folder</p>
-<li>Run `composer install`</li>
+<li>Run <code>composer install</code></li>
 <li>Install dependencies with `npm install`</li>
 <li>Run asset watcher with `npm run dev`</li>
 </ul>
