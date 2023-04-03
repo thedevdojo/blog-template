@@ -14,6 +14,10 @@
 <li>Run asset watcher with <code>npm run dev</code></li>
 </ul>
 
+<p>Visit the homepage, and BOOM 💥 (it will pull the data from a local sqlite file)</p>
+
+> If you want to re-run migrations and re-create posts you can do so from the following 👇
+
 <h2>Re-run migrations and re-create posts</h2>
 <p>Follow these steps to re-run the migrations and create a single user and 10 posts</p>
 <ul>
