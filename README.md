@@ -13,3 +13,13 @@
 <li>Install dependencies with `npm install`</li>
 <li>Run asset watcher with `npm run dev`</li>
 </ul>
+
+<h2>Re-run migrations and re-create posts</h2>
+<p>Follow these steps to re-run the migrations and create a single user and 10 posts</p>
+<ul>
+<li>Run `php artisan migrate`</li>
+<li>Inside of `php artisan tinker`, run `User::factory()->create()` to create a new user</li>
+<li>Insiide of `php artisan tinker`, run `Post::factory()->count(10)->create()` to create posts</li>
+</ul>
+
+<p>That's it! 🍻 Enjoy.</p>

@@ -21,10 +21,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('blog', 'blog')->name('blog');
+Route::view('/', 'blog')->name('blog');
 Route::view('blog/{post:slug}', 'post')->name('post');
-
-Route::view('/', 'welcome')->name('home');
 
 Route::middleware('guest')->group(function () {
     Route::get('login', Login::class)

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="max-w-3xl pb-10 mx-auto space-y-8">
+    <div class="max-w-2xl pb-10 mx-auto space-y-8">
         @foreach(Post::all() as $post)
             <div class="w-full space-y-2">
                 <h2 class="text-xl font-bold"><a href="/blog/{{ $post->slug }}" class="hover:underline">{{ $post->title }}</a></h2>
